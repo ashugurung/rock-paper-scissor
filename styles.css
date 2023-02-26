@@ -1,0 +1,105 @@
+body{
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: #F6F7C1 ;
+    text-align: center;
+    font-family: 'Montserrat';
+    
+}
+
+#title {
+    color: black;
+    font-family: 'Gajraj One';
+    font-size: 60px;
+    margin: 0 auto;
+    
+}
+
+/* ------ Profile and Outcome ------- */
+.outcome {
+    background-color: #C0EEE4;
+    font-family: 'Montserrat';
+    font-weight:400;
+    margin: 0 auto;
+}
+
+.finalResult {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px auto;
+    height: 205px;
+    align-items: center;
+}
+
+.counter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.profile h2{
+    font-family: 'Montserrat';
+    font-weight:400;
+}
+
+.parachoice {
+    font-size: 15px;
+    margin-top:5px;
+    
+ }
+#user-choice .parachoice {
+    margin-left: 55px;
+}
+
+#computer-choice .parachoice {
+    margin-left: 140px;
+}
+
+.outcome {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.eachGameResult h2{
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+
+/*------------ PAW Buttons----------*/
+.select {
+    margin: 0 auto;
+}
+ img {
+    height:110px;
+ }
+
+ .choice {
+    background-color: #C0EEE4;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    width: 140px;
+ }
+ 
+ a {
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border-radius: 3px 3px;
+ }
+
+ /* Footer */
+ footer {
+    margin: 10px;
+ }

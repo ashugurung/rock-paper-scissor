@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel ="stylesheet" href="styles.css"> 
+<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+<!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/a45420c94f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <h2 id="title">ROCK, PAPER, SCISSORS</h2>
+   <p>Your cat is in trouble, save them from a Cat-astrophe!</p>
+
+    <div class="outcome">
+        <!-- Each Game Result-->
+        <div class="eachGameResult">
+            <h2><span id = "result"></span></h2>
+        </div>
+        <div class="finalResult"> Final Result: <span id = "updateWinner"></span></div>
+    </div>
+<!-- Profile and Game Counter-->
+    <div class="profile">
+        <h2>Cat: <span id = "user-choice"></span></h2>
+
+        <div class="counter">
+            <h3><i class="fas fa-cat"></i> Cat: <span id="user-counter"></span></h3>
+            <h3><i class="fas fa-robot"></i> Computer: <span id="computer-counter"></span></h3>
+        </div>
+
+        <h2>Computer: <span id = "computer-choice"></span></h2>
+    </div>
+
+<!-- PAW Buttons -->
+<h3 class="select">Select one:</h3>
+<div class="buttons">
+    <button type ="button" id ="rock" class = "choice">
+        <img src ="images/rock-1.png" alt="cat paw rock illustration">
+        <p class= "parachoice">Rock</p>
+    </button>
+    <button type ="button" id ="paper" class = "choice">
+        <img src ="images/paper-1.png" alt="cat paw paper illustration">
+        <p class = "parachoice">Paper</p>
+    </button>
+    <button type ="button" id ="scissors" class = "choice">
+        <img src ="images/scissors-1.png" alt="cat paw scissors illustration">
+        <p class= "parachoice">Scissors</p>
+    </button>
+</div>
+<a href="index.html" id="endButton">Play Again? </a>
+<script src="index.js"></script>
+</body>
+<footer>Enjoy (●'◡'●)</footer>
+</html>
